@@ -1,20 +1,20 @@
 # ----------------------------------------------------------------------------
 # @description
 # 
-# Testing using RUnit
-#
-# to run unit tests, run this script, which will run your unit src then run all 
-# the 'runit_*.R" test scripts RUnit finds in the 'tests' directory 
-#
 # my example recursive function
 #
-# run in RSTuido like this:
+# run this in RStudio like this:
 # > source("recursive example.R")
 # > padVector(c("abc","def"),3)
 # [1] "abc", "def", "def"
 #
 # s - a vector of strings
 # len - the length of string you want to create by padding
+#
+# Testing using RUnit
+#
+# to run unit tests, run the "run_tests_XXX" script, which will call this unit src then run all 
+# the 'runit_*.R" test scripts RUnit finds in the 'tests' subdirectory 
 #
 # @version: 1.0
 # (C)Fatkahawai 2016
